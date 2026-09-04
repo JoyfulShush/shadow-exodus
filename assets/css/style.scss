@@ -3,22 +3,35 @@
 
 @import "{{ site.theme }}";
 
-$header-start: #241b3d;
-$header-end: #7b2f55;
-$heading-color: #7b2f55;
+$header-start: #42395a;
+$header-end: #66193f;
+$heading-color: #81566c;
 
 .page-header {
   background-color: $header-end;
   background-image: linear-gradient(120deg, $header-start, $header-end);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4,
+.main-content h5,
+.main-content h6 {
   color: $heading-color;
+  font-weight: 600;
+}
+
+.main-content h1 {
+  font-size: 2.15rem;
+}
+
+.main-content h2 {
+  font-size: 1.6rem;
+}
+
+.main-content h3 {
+  font-size: 1.3rem;
 }
 
 .page-header .project-name,
