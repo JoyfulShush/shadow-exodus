@@ -8,6 +8,7 @@ $header-end: #66193f;
 $heading-color: #81566c;
 
 .page-header {
+  padding: 2.25rem 6rem;
   background-color: $header-end;
   background-image: linear-gradient(120deg, $header-start, $header-end);
 }
