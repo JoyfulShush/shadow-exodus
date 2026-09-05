@@ -146,9 +146,9 @@
 
 ### Preconditions Used In This Mission:
 * **Enforcer Blueprints Captured?** - Whether the Allied Tech Center was captured in [SE#06](#se06).
-	* Effect: After the first time one of the AI-controlled factions declares loyalty to the player or defects, grants the player an Enforcer that arrives from the south.
+	* Effect: After the first time one of the AI-controlled factions declares loyalty to the player or defects, an AI base loses all its factories, or the player captures the Temple, grants the player an Enforcer that arrives from the south.
 * **Behemoth Blueprints Captured?** - Whether the Soviet Forward Command Center was captured in [SE#09](#se09).
-	* Effect: After the second time one of the AI-controlled factions declares loyalty to the player or defects, grants the player a Behemoth Tank that arrives from the south.
+	* Effect: After the second time one of the AI-controlled factions declares loyalty to the player or defects, an AI base loses all its factories, or the player captures the Temple, grants the player a Behemoth Tank that arrives from the south.
 
 </details>
 
@@ -162,17 +162,18 @@
 
 ### Preconditions Used In This Mission:
 * **Mammoth Blueprints Captured?** - Whether the Mammoth Blueprint crate was picked up after intercepting the GDI convoy in [SE#02](#se02).
-	* Effect: Grants the player six Mammoth Artillery units at the start of the mission, located near the temple.
+	* Effect: Grants the player six Mammoth Artillery units at the start of the mission, located near the Temple.
 * **Enforcer Blueprints Captured?** - Whether the Allied Tech Center was captured in [SE#06](#se06).
-	* Effect: Grants the player the Oppressor unit at the start of the mission, located near the temple.
+	* Effect: Grants the player the Oppressor unit at the start of the mission, located near the Temple.
 * **Behemoth Blueprints Captured?** - Whether the Soviet Forward Command Center was captured in [SE#09](#se09).
-	* Effect: Grants the player four Napalm Launcher units at the start of the mission, located near the temple.
+	* Effect: Grants the player four Napalm Launcher units at the start of the mission, located near the Temple.
 * **Microwave Tank Schematics Purged?** - Whether the engineer interacted with the northwest console to delete the Microwave Tank schematics in [SE#07](#se07).
 	* Effect: If not unlocked or set to "No", allows the Vanguard AI to build Microwave Tanks against the player.
 * **Majority Nod Vassals Alive?** - Whether at least four allied bases loyal to the player remained with production capabilities in [SE#10](#se10).
 	* Effect: For each destroyed bridge the player repairs, allied reinforcements arrive, establish a base nearby, and begin producing units to assist the player.
 
 ### Important Notes For This Mission:
+* If **all blueprint preconditions** are set to "Yes", the player will also get two Belluminators. The first arrives 70 in-game minutes after game starts, while the second arrives 160 in-game minutes. They are spawned directly beneath the player's Temple.
 * This is the finale for the Shadow Exodus campaign. The ending that the player gets is based on the combination of all blueprints, as well as the **Majority Nod Vassals Alive?** preconditions that were used in this mission. Each combination grants a different ending.
 	* If **any of the blueprint preconditions** are set to "No" and **Majority Nod Vassals Alive?** is also set to "No", the player will get Ending I
 	* If **all blueprint preconditions** are set to "Yes", but **Majority Nod Vassals Alive?** is set to "No", the player will get Ending II.

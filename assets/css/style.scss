@@ -3,14 +3,43 @@
 
 @import "{{ site.theme }}";
 
-$header-start: #42395a;
-$header-end: #66193f;
-$heading-color: #81566c;
+$header-start: #443f4e;
+$header-end: #61133a;
+$heading-color: #d8c2c5;
+$page-background: #2a2528;
+$content-background: #2a2528;
 
 .page-header {
   padding: 2.25rem 6rem;
   background-color: $header-end;
   background-image: linear-gradient(120deg, $header-start, $header-end);
+}
+
+body {
+  background-color: $page-background;
+}
+
+.main-content {
+  background-color: $content-background;
+  color: #ffffff;
+}
+
+.main-content p,
+.main-content li,
+.main-content details,
+.main-content summary,
+.main-content .site-footer {
+  color: #ffffff;
+}
+
+.main-content a {
+  color: #e58b95;
+  text-decoration: underline;
+}
+
+.main-content a:hover,
+.main-content a:focus {
+  color: #f4c8cd;
 }
 
 .main-content h1,
