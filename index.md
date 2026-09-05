@@ -151,7 +151,7 @@
 		* An AI base loses all its factories.
 		* The player captures the Temple.
 * **Behemoth Blueprints Captured?** - Whether the Soviet Forward Command Center was captured in [SE#09](#se09).
-	* Effect: Grants the player a Behemoth that arrives from the south. This applies once any of those occur **for the second time:**:
+	* Effect: Grants the player a Behemoth that arrives from the south. This applies once any of those occur **for the second time:**
 		* One of the AI-controlled factions declares loyalty to the player or defects.
 		* An AI base loses all its factories.
 		* The player captures the Temple.
