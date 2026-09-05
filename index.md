@@ -146,9 +146,15 @@
 
 ### Preconditions Used In This Mission:
 * **Enforcer Blueprints Captured?** - Whether the Allied Tech Center was captured in [SE#06](#se06).
-	* Effect: After the first time one of the AI-controlled factions declares loyalty to the player or defects, an AI base loses all its factories, or the player captures the Temple, grants the player an Enforcer that arrives from the south.
+	* Effect: Grants the player an Enforcer that arrives from the south. This applies once any of those occur **for the first time:**
+		* One of the AI-controlled factions declares loyalty to the player or defects.
+		* An AI base loses all its factories.
+		* The player captures the Temple.
 * **Behemoth Blueprints Captured?** - Whether the Soviet Forward Command Center was captured in [SE#09](#se09).
-	* Effect: After the second time one of the AI-controlled factions declares loyalty to the player or defects, an AI base loses all its factories, or the player captures the Temple, grants the player a Behemoth Tank that arrives from the south.
+	* Effect: Grants the player a Behemoth that arrives from the south. This applies once any of those occur **for the second time:**:
+		* One of the AI-controlled factions declares loyalty to the player or defects.
+		* An AI base loses all its factories.
+		* The player captures the Temple.
 
 </details>
 
@@ -173,7 +179,7 @@
 	* Effect: For each destroyed bridge the player repairs, allied reinforcements arrive, establish a base nearby, and begin producing units to assist the player.
 
 ### Important Notes For This Mission:
-* If **all blueprint preconditions** are set to "Yes", the player will also get two Belluminators. The first arrives 70 in-game minutes after game starts, while the second arrives 160 in-game minutes. They are spawned directly beneath the player's Temple.
+* If **all blueprint preconditions** are set to "Yes", the player will also get two Beluminators. The first arrives 70 in-game minutes after game starts, while the second arrives 160 in-game minutes. They are spawned directly beneath the player's Temple.
 * This is the finale for the Shadow Exodus campaign. The ending that the player gets is based on the combination of all blueprints, as well as the **Majority Nod Vassals Alive?** preconditions that were used in this mission. Each combination grants a different ending.
 	* If **any of the blueprint preconditions** are set to "No" and **Majority Nod Vassals Alive?** is also set to "No", the player will get Ending I
 	* If **all blueprint preconditions** are set to "Yes", but **Majority Nod Vassals Alive?** is set to "No", the player will get Ending II.
